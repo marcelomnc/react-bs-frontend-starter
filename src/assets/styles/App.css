@@ -1,0 +1,24 @@
+:root {
+	--color-primary: rgb(34, 41, 83);
+}
+
+.RootContainer {
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	overflow: auto;
+}
+
+.Main {
+	flex: 1;
+}
+
+.Main__container {
+	height: 100%;
+}
+
+.Footer {
+	padding: 0 5px;
+	font-size: 9px;
+	height: 20px;
+}
