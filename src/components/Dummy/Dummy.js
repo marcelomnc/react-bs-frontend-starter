@@ -2,7 +2,7 @@ import React from "react";
 
 const Dummy = (props) => {
 	return (
-		<div className="About">
+		<div className="Dummy">
 			<h2>DUMMY</h2>
 			<p>
 				Mollit est exercitation commodo proident labore ut consectetur magna qui
