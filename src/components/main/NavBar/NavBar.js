@@ -20,14 +20,14 @@ const NavBar = (props) => {
 			<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 				<Nav className="Nav">
 					<NavDropdown title={Labels.navDropDownLabel}>
-						<NavDropdown.Item href="#">
+						<NavDropdown.Item href="/dummy">
 							{Labels.navDropDownItemLabel}
 						</NavDropdown.Item>
-						<NavDropdown.Item href="#">
+						<NavDropdown.Item href="/dummy">
 							{Labels.navDropDownItemLabel}
 						</NavDropdown.Item>
 					</NavDropdown>
-					<Nav.Link href="#">{Labels.aboutLabel}</Nav.Link>
+					<Nav.Link href="/about">{Labels.aboutLabel}</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
